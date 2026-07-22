@@ -67,19 +67,6 @@ plot_pearson_heatmap(results$step3_pearson)
 plot_stability(results$step4_stability)
 ```
 
-### Renaming subtype labels before running the pipeline
-
-```r
-my_seurat_object <- rename_subtypes(
-  my_seurat_object,
-  subtype_col = "cca_subtypes",
-  rename_map = c(
-    "NK/Cytotoxic T cells" = "CD8+ Cytotoxic T cells",
-    "\u03b3\u03b4 T cells" = "Th17-like T cells",
-    "AXL+ Dendritic cells" = "Dendritic cells"
-  )
-)
-```
 
 ## Individual pipeline steps
 
