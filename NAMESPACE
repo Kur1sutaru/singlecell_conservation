@@ -1,0 +1,23 @@
+# Generated manually to match roxygen @export tags in R/*.R
+# Once you have devtools/roxygen2 installed, running devtools::document()
+# will regenerate this file automatically from the roxygen comments.
+
+export(run_step1_conserved_markers)
+export(classify_step2)
+export(compute_pearson_pairwise)
+export(compute_stability)
+export(run_conservation_pipeline)
+export(rename_subtypes)
+export(plot_conserved_count)
+export(plot_pearson_heatmap)
+export(plot_stability)
+export(theme_pub)
+
+importFrom(Seurat, FindConservedMarkers, Idents, "Idents<-", AverageExpression, subset)
+importFrom(dplyr, bind_rows, case_when, filter, count, "%>%")
+importFrom(ggplot2, ggplot, aes, geom_bar, geom_text, geom_tile, scale_fill_manual,
+           scale_fill_gradient2, scale_y_continuous, labs, theme_bw, theme,
+           element_rect, element_line, element_blank, element_text, margin,
+           rel, expansion)
+importFrom(stats, cor, rank, sd)
+importFrom(utils, combn)

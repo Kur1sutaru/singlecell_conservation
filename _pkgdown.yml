@@ -1,0 +1,40 @@
+url: https://Kur1sutaru.github.io/singlecell_conservation/
+
+template:
+  bootstrap: 5
+  bslib:
+    primary: "#1f5fa8"
+
+home:
+  title: singleCellConservation
+  description: Cross-species conservation analysis for single-cell marker genes
+
+navbar:
+  structure:
+    left: [intro, reference, articles]
+    right: [github]
+  components:
+    articles:
+      text: Tutorial
+      menu:
+      - text: Getting Started (Immune Example)
+        href: articles/getting-started-immune.html
+
+reference:
+- title: Pipeline
+  desc: Run the full 4-step conservation pipeline, or each step individually.
+  contents:
+  - run_conservation_pipeline
+  - run_step1_conserved_markers
+  - classify_step2
+  - compute_pearson_pairwise
+  - compute_stability
+- title: Utilities
+  contents:
+  - rename_subtypes
+  - theme_pub
+- title: Plots
+  contents:
+  - plot_conserved_count
+  - plot_pearson_heatmap
+  - plot_stability
