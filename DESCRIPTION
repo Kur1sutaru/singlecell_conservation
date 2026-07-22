@@ -1,7 +1,7 @@
 Package: singleCellConservation
 Title: Cross-Species Single-Cell Marker Conservation Analysis
 Version: 0.1.0
-Authors@R: person("Cristal", "Villalba Silva", email = "your.email@uthscsa.edu", role = c("aut", "cre"))
+Authors@R: person("Cristal", "Villalba", email = "villalbasilv@uthscsa.edu", role = c("aut", "cre"))
 Description: Tools for testing cross-species conservation of cell-subtype
     marker genes from Seurat objects with a species metadata column.
     Implements a 4-step pipeline: (1) unfiltered FindConservedMarkers
